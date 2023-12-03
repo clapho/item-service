@@ -1,10 +1,13 @@
 package hello.itemservice.domain.item;
 
+import org.springframework.stereotype.Repository;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@Repository
 public class ItemRepository {
 
     // 멀티스레드 환경에서 이슈가 있음, 간단한 프로젝트라 그냥 사용
